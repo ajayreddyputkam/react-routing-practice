@@ -1,0 +1,80 @@
+/* Write your CSS code here */
+
+.list-item {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.link-item {
+  width: 95%;
+  margin-top: 10px;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.image-item {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.topic-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topic {
+  color: #8e8e8e;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.avatar-author-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.avatar-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.author {
+  color: #8e8e8e;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .image-item {
+    width: 200px;
+    height: 140px;
+    margin-right: 10px;
+  }
+
+  .topic-title-container {
+    margin-left: 10px;
+  }
+}
